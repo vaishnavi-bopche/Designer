@@ -1,0 +1,244 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+    }
+    
+    html,
+    body {
+        height: 100%;
+        width: 100%;
+    }
+    
+    #bg {
+        display: flex;
+        height: 100%;
+        width: 100%;
+        background-color: black;
+    }
+    
+    #left {
+        height: 100%;
+        width: 12%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    #ul {
+        display: block;
+    }
+    
+    #left a {
+        display: inline-block;
+        text-decoration: none;
+        color: rgb(197, 195, 195);
+        margin-top: 30px;
+        font-size: 10px;
+        font-weight: 50px;
+    }
+    
+    #left h1 {
+        font-size: 50px;
+        letter-spacing: -3px;
+        color: black;
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+    
+    #ll {
+        display: block;
+        color: rgb(184, 180, 180);
+        margin-bottom: 40px;
+        font-size: 10px;
+        font-weight: 50px;
+    }
+    
+    #center {
+        height: 100%;
+        width: 45%;
+        background-image: url(https://images.unsplash.com/photo-1533008093099-e2681382639a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1901&q=80);
+        background-size: cover;
+        background-position: bottom;
+    }
+    
+    #right {
+        position: relative;
+        height: 100%;
+        width: 45%;
+        padding: 50px;
+        background-color: white;
+    }
+    
+    #right #icon {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    
+    #right #icon i {
+        margin-left: 20px;
+        color: rgb(151, 150, 150)
+    }
+    
+    #centerright {
+        width: 50%;
+        height: 400px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgba(231, 231, 231, 0.096);
+        text-align: center;
+        box-shadow: 0 10px 10px rgba(240, 238, 238, 0.596);
+    }
+    
+    #first {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .line {
+        display: inline-block;
+        width: 80px;
+        height: 1.5px;
+        background-color: rgb(128, 125, 125);
+        margin-top: 25px;
+    }
+    
+    #h {
+        color: black;
+        font-weight: 60px;
+        font-size: 25px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 25px;
+        text-align: center;
+    }
+    
+    #a {
+        font-size: 70px;
+        font-weight: 70px;
+    }
+    
+    #b {
+        font-size: 10px;
+        font-weight: 10px;
+        color: rgb(189, 181, 181);
+        font-weight: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        display: inline-block;
+    }
+    
+    #centerright #holder {
+        width: 100%;
+        height: 42px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        margin-top: 11px;
+        padding: 8px;
+    }
+    
+    #holder input {
+        position: relative;
+        width: 80%;
+        height: 42px;
+        background-color: white;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-color: white;
+        box-shadow: 0 20px 25px rgba(163, 162, 162, 0.26);
+        outline: none;
+        border: 2px solid #f3f3f3;
+        color: rgb(114, 109, 109);
+    }
+    
+    #holder button {
+        width: 20%;
+        height: 38px;
+        background-color: rgb(207, 134, 146);
+        border-color: rgb(207, 134, 146);
+        color: rgb(114, 109, 109);
+        outline: none;
+        border: 2px solid rgb(207, 134, 146);
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        box-shadow: 0 20px 25px rgba(163, 162, 162, 0.26);
+    }
+    
+    #holder::placeholder {
+        color: rgb(255, 254, 254);
+        border-color: white;
+        padding-left: 30px;
+    }
+    
+    #holder i {
+        position: absolute;
+        top: 50%;
+        left: 5%;
+        transform: translate(0, -50%);
+        color: rgb(114, 109, 109);
+    }
+    
+    #filter {
+        width: 100%;
+        height: 110px;
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        padding-bottom: 10px;
+    }
+    
+    #filter img {
+        width: 60%;
+        height: 100%;
+        padding-left: 8px;
+    }
+    
+    #filter #l {
+        padding-left: 15px;
+        font-size: 10px;
+        color: rgb(112, 111, 111);
+        line-height: 15px;
+    }
+    
+    #filter i {
+        position: absolute;
+        top: 35%;
+        left: 20%;
+        transform: translate(-50% -50%);
+        font-size: 30px;
+        opacity: 0.3;
+        border-radius: 5px;
+        border-color: rgb(77, 74, 74);
+    }
+    
+    #last {
+        position: absolute;
+        top: 50%;
+        right: 60px;
+        transform-origin: 100% 0;
+        transform: rotate(-90deg);
+    }
+    
+    #last a {
+        text-decoration: none;
+        opacity: 0.2;
+        margin-left: 15px;
+        color: black;
+        font-size: 15px;
+    }
+    
+    #s {
+        position: absolute;
+        bottom: 10%;
+        right: 6%;
+        color: black;
+        opacity: 0.2;
+    }
