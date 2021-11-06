@@ -1,0 +1,134 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    html,
+    body {
+        height: 100%;
+        width: 100%;
+    }
+    
+    #bg {
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        display: flex;
+    }
+    
+    #l {
+        width: 35%;
+        height: 100%;
+        background-color: white;
+        position: relative;
+    }
+    
+    #c {
+        width: 60%;
+        height: 100%;
+        background-image: url(https://images.unsplash.com/photo-1598461946773-aec0e3eda83f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+        background-size: cover;
+    }
+    
+    #r {
+        width: 5%;
+        height: 100%;
+        background-color: white;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    
+    #s {
+        width: 400px;
+        height: 600px;
+        background-color: rgba(199, 199, 207, 0.568);
+        right: 0;
+        position: absolute;
+        top: 50%;
+        transform: translate(0, -50%);
+    }
+    
+    #con {
+        width: 25%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    #links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #icons {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #t1 {
+        font-size: 40px;
+        margin-top: 25px;
+    }
+    
+    #icons i {
+        margin-bottom: 10px;
+        color: rgb(80, 78, 78);
+    }
+    
+    #links a {
+        text-decoration: none;
+        color: black;
+        margin-top: 8px;
+        font-size: 13px;
+    }
+    
+    #sc {
+        width: 380px;
+        height: 250px;
+        margin-left: 100px;
+        margin-top: 200px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    
+    #sc h3 {
+        font-family: 'Dr Sugiyama', cursive;
+        font-size: larger;
+    }
+    
+    #sc h1 {
+        font-size: 88px;
+    }
+    
+    #sc a {
+        color: rgb(88, 61, 42);
+        border-bottom: rgb(88, 61, 42);
+        padding-top: 30px;
+    }
+    
+    #ff {
+        background-color: rgb(167, 165, 165);
+    }
+    
+    #dd {
+        background-color: rgba(199, 199, 207, 0.568);
+        width: 100%;
+        height: 93%;
+    }
+    
+    #icons2 {
+        align-items: center;
+        margin-top: 8px;
+        margin-left: 5px;
+    }
+    
+    #h6 {
+        padding-bottom: 5px;
+        align-items: center;
+    }
